@@ -1,1 +1,2 @@
 const slider=tns({container:".testimonial-carousel",loop:!0,items:3,responsive:{0:{items:1},768:{items:2},1200:{items:3}},slideBy:"page",nav:!0,autoplay:!0,autoplayButtonOutput:!1,mouseDrag:!0,lazyload:!0,gutter:30,navPosition:"bottom",mouseDrag:!0,controls:!1,speed:800});
+const slider1=tns({container:".testimonial-carousel1",loop:!0,items:3,responsive:{0:{items:1},768:{items:2},1200:{items:3}},slideBy:"page",nav:!0,autoplay:!0,autoplayButtonOutput:!1,mouseDrag:!0,lazyload:!0,gutter:30,navPosition:"bottom",mouseDrag:!0,controls:!1,speed:800});

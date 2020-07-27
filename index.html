@@ -2,13 +2,20 @@
 <html lang="en">
 
 <head>
-	<title>Rajat Kalsotra</title>
+	<title>Rajat Kalsotra | My personal site and portfolio</title>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="My Personal site and portfolio">
+	<meta name="description" content="Software engineer,web developer, Flutter app developer.">
 	<meta name="author" content="Rajat Kalsotra">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://rajatkalsotra.tech/fav.png">
+	<meta property="og:title" content="Rajat Kalsotra | My personal site and portfolio">
+	<meta property="og:description" content="Software engineer,web developer, Flutter app developer.">
+	<meta property="og:site_name" content="Personal portfolio">
+	<meta property="og:url" content="https://rajatkalsotra.tech">
+	<link rel="canonical" href="https://rajatkalsotra.tech">
 	<link rel="shortcut icon" href="fav.png">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
@@ -100,7 +107,8 @@
 						<h2 class="name font-weight-bold mb-1">Rajat Kalsotra</h2>
 						<div class="tagline mb-3">Web developer | ML | Computer Vision</div>
 						<div class="bio mb-4"> I'm a third year Computer Science engineering student.I like to learn
-							about the latest technologies. Interested in Machine Learning,Deep learning, web development.
+							about the latest technologies. Interested in Machine Learning,Deep learning, web
+							development.
 						</div>
 						<!--//bio-->
 						<div class="mb-4">
@@ -290,85 +298,76 @@
 		<div class="container">
 			<hr>
 		</div>
-
-		<section class="featured-section p-3 p-lg-5">
+		<section class="testimonials-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Projects</h2>
-				<div class="row">
-					<div class="col-md-6 mb-5">
-						<div class="card project-card">
-							<div class="row no-gutters">
-								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/blog/home.png" loading="lazy" class="card-img"
-										style="min-height: 185px;" alt="image">
-								</div>
-								<div class="col-lg-8">
-									<div class="card-body">
-										<h5 class="card-title"><a href="blogs/home_auto" class="theme-link">Energy
-												Efficient Smart Home Automation</a></h5>
-										<p class="card-text"><small class="text-muted">Winner for Buildathon
-												2019</small></p>
-										<p class="card-text">Worked on a prototype of home and development of an app
-											with voice support. The protorype worked either in automated state(i.e with
-											the help of sensors) or through the app. </p>
-
-									</div>
+				<div class="testiomonial-carousel-container">
+					<div class="testimonial-carousel  tiny-slider">
+						<div class="item">
+							<div class="card blog-post-card">
+								<img class="card-img-top" src="assets/images/blog/home.png" loading="lazy" alt="image">
+								<div class="card-body">
+									<h5 class="card-title"><a class="theme-link" href="blogs/home_auto">Energy
+											Efficient Smart Home Automation</a></h5>
+									<p class="card-text"><small class="text-muted">Winner for Buildathon
+											2019</small></p>
+									<p class="card-text">Worked on a prototype of home and development of an app
+										with voice support. The prototype worked either in automated state(i.e with
+										the help of sensors) or through the app.</p>
+									<p class="mb-0"><a class="more-link" href="blogs/home_auto">View Blog
+											&rarr;</a></p>
 								</div>
 							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="blogs/home_auto"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="blogs/home_auto">
-										<i class="fas fa-eye mr-2"></i>View Blog
-									</a>
-								</div>
-							</div>
-							<!--//link-mask-->
 						</div>
-						<!--//card-->
-					</div>
-					<!--//col-->
-					<div class="col-md-6 mb-5">
-						<div class="card project-card">
-							<div class="row no-gutters">
-								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/project/project-2.jpg" loading="lazy" class="card-img"
-										alt="image">
-								</div>
-								<div class="col-lg-8">
-									<div class="card-body">
-										<h5 class="card-title"><a href="javascript:void(0)"
-												class="theme-link">Writely</a></h5>
-										<p class="card-text"><small class="text-muted">Deployed with Heroku</small></p>
-										<p class="card-text">A responsive web app in which users can publish their
-											wonderful ideas about change pertaining to any topic.Developed with
-											nodejs,mongoDB .</p>
-									</div>
+						<div class="item">
+							<div class="card blog-post-card">
+								<img class="card-img-top" src="face.png" style="margin: auto;max-width: 180px;" loading="lazy" alt="image">
+								<div class="card-body">
+									<h5 class="card-title"><a class="theme-link" href="blogs/home_auto">Realtime Face recognition </a></h5>
+									<p class="card-text"><small class="text-muted">Open source</small></p>
+									<p class="card-text">Developed a realtime face recognition android app with flutter using MobileFaceNet model.</p>
+									<p class="mb-0"><a class="more-link" target="_blank" href="https://github.com/Rajatkalsotra/Face-Recognition-with-Flutter">View Project
+											&rarr;</a></p>
 								</div>
 							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://rajatkalsotra.herokuapp.com"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" target="_blank"
-										href="https://rajatkalsotra.herokuapp.com">
-										<i class="fas fa-eye mr-2"></i>View Project
-									</a>
-								</div>
-							</div>
-							<!--//link-mask-->
 						</div>
-						<!--//card-->
+						<div class="item">
+							<div class="card blog-post-card">
+								<img class="card-img-top" src="assets/images/blog/ref.png" loading="lazy" alt="image">
+								<div class="card-body">
+									<h5 class="card-title"><a class="theme-link" target="_blank" href="https://rajatkalsotra.herokuapp.com">Write-App</a></h5>
+									<p class="card-text"><small class="text-muted">Deployed with heroku</small></p>
+									<p class="card-text">Developed a responsive web app in which users can publish their
+										wonderful ideas about change pertaining to any topic.Developed with
+										nodejs,mongoDB .</p>
+									<p class="mb-0"><a class="more-link" target="_blank" href="https://rajatkalsotra.herokuapp.com">View app
+											&rarr;</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="card blog-post-card">
+								<img class="card-img-top" src="assets/images/blog/ref.png" loading="lazy" alt="image">
+								<div class="card-body">
+									<h5 class="card-title"><a class="theme-link" target="_blank" href="https://glugmvit2.herokuapp.com/">Glug Mvit</a></h5>
+									<p class="card-text"><small class="text-muted">Deployed with heroku</small></p>
+									<p class="card-text"> Developed a website for college group GNU/LINUX USERS GROUP(GLUG)
+										for open source ENTHUSIASTS where new events can be posted and students can register on it.</p>
+									<p class="mb-0"><a class="more-link" target="_blank" href="https://glugmvit2.herokuapp.com/">View site
+											&rarr;</a></p>
+								</div>
+							</div>
+						</div>
 					</div>
+					<!--//testimonial-carousel-->
 				</div>
-				<!--//row-->
-				<div class="text-center py-3"><a href="https://github.com/Rajatkalsotra" target="_blank"
-						class="btn btn-primary"><i class="fab fa-github mr-2"></i>View Github</a></div>
-
+				<!--//testimonial-carousel-container-->
+				<div class="text-center py-3"><a target="_blank" href="https://github.com/Rajatkalsotra/" class="btn btn-primary"><i
+							class="fab fa-github mr-2"></i>View more on Github</a></div>
 			</div>
+
 			<!--//container-->
 		</section>
-		<!--//featured-section-->
-
 		<div class="container">
 			<hr>
 		</div>
@@ -377,7 +376,7 @@
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Latest Blog Posts</h2>
 				<div class="testiomonial-carousel-container">
-					<div class="testimonial-carousel  tiny-slider">
+					<div class="testimonial-carousel1  tiny-slider">
 						<div class="item">
 							<div class="card blog-post-card">
 								<img class="card-img-top" src="assets/images/blog/home.png" loading="lazy" alt="image">
